@@ -1,0 +1,99 @@
+body{
+    background-color:white;
+    background-image: url("./gluper-logo.PNG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 3em;
+    background-position-x: right;
+}
+nav{
+    background-color: white;
+    margin-top: 5px;
+    margin: 0;
+    padding: 0;
+}
+.sign{
+    background-color: rgba(99, 86, 14, 0.685);
+    border-radius: 3px;
+    width: 4em;
+    text-align: center;
+}
+.logo{
+    padding-top: 2em;
+    padding-left: 3em;
+}
+.social-media{
+  margin-left: 12em;
+  padding-right: 4em;
+  padding-top: 2px;
+   
+}
+ul{
+    display: flex;
+    margin-left: 40em;
+   
+ }
+li{
+    list-style: none;
+    margin: 30px;
+}
+a{
+    font-size: 1em;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container-part1{
+    margin-top: 5em;
+    display: inline-block;
+    margin-left: 10em;
+}
+.container-part3{
+    background-color:white;
+    margin-top: 2em;   
+}
+.read{
+   text-align: center;
+   background-color: maroon;
+   margin-top: 2em;
+   width: 5em;
+}
+.read a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container-part3 h4{
+    background-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.profile img{
+    border-radius: 3em;
+    border: 7PX solid brown;
+}
+.profile h4{
+    color: rgba(14, 15, 15, 0.7 74);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container-ideal :hover{
+    background: rgb(78, 2, 31);
+    transition: 5s;
+    display: block;
+    width: auto;
+    margin-left: 10em;
+    margin-right: 10em; 
+}
+.move{
+    color: rgb(218, 213, 210);
+    text-align: center;
+}
+.container-footer{
+    background-color: black;
+    height: 40px;
+    margin-top: 40em;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,17 @@
+body {
+    background:white;
+  }
+  
+  .container {
+    /*centers in the container*/
+    text-align: center;
+  }
+  
+  div.circTxt {
+    /*allows for centering*/
+    display: inline-block;
+    /*adjust as needed*/
+    margin-bottom: 298px;
+    color: brown;
+    font-size: 3em;
+  }

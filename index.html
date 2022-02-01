@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="headers.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
      <!--Title logo-->
      <link rel="shortcut icon" href="images/g-logo-2.png">
      <!--End of title logo-->
@@ -36,6 +37,17 @@
         }
       </style>
      <!--End of Inline css-->
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157476844-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-157476844-1');
+</script>
+     <!--End of Google analytics-->
 </head>
 <body>
     <!--Top Navigation Bar-->
@@ -106,42 +118,44 @@
     <div class="b-example-divider"></div>
 <!--End of line on page-->
 <!--Welcome Note-->
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <figure class="figure">
             <marquee behavior="scroll" direction="right">  <img style="width: 20em; height: 8em;" src="images/gluper-logo-main.png" alt="">
             </marquee>
             </figure>
-        <div class="col-lg-6 bg-dark">
-            <h3 style="color: rgb(228, 99, 99);">Welcome to G-Luper Teachnologies.</h3>
-            <p style="font-size: 1.5em; color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">No matter what your coding goals are, the best place to start is by building a 
+        <div class="col-lg-6">
+            <h3 style="color: rgb(78, 14, 14);">Welcome to G-Luper Teachnologies.</h3>
+            <p style="font-size: 1.5em; color: black; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">No matter what your coding goals are, the best place to start is by building a 
                 strong foundation. G-Luper Teach will teach you how to 
                 think and code like a professional. You’ll learn practical coding, 
                 build a professional portfolio, and prepare for an entry-level role in tech.</p>
         </div>
-        <div class="col-lg-6 bg-dark">
+        <div class="col-lg-6">
             <figure class="figure">
-                <img style="width: 25em; height: 20em; border: solid 9px rgb(82, 82, 219); border-radius: 0em;" src="images/background.jpeg" alt="">
+                <img style="width: 25em; height: 20em; border-radius: 0em;" src="images/background.jpeg" alt="">
             </figure>
         </div>
     </div>
 </div>
 <!--End of welcome Note-->
+<div class="b-example-divider"><h1>Training Videos</h1></div>
+
 <!--our videos-->
 <section>
     <div class="container-fluid">
-        <div class="row mb-3">
+         <div class="row">
           <div class="col-md-4">
             <h5 style="margin-left: 2em; color: rgb(110, 35, 35);">How to Create Navigation</h5>
-            <video controls preload="metadata" width="300" height="200"  src="video/G-luperTech-Navigation.mp4"></video>
+            <video controls autoplay="autoplay" preload="metadata" width="300" height="200"   src="video/G-luperTech-Navigation.mp4"></video>
           </div>
           <div class="col-md-4">
             <h5 style="margin-left: 2.5em; color: rgb(110, 35, 35);" >Adding Social Media</h5>
-            <video controls  width="300" height="200" src="video/G-luperTech-Adding Social Media icon.mp4"></video>
+            <video controls autoplay="autoplay"  width="300" height="200" src="video/G-luperTech-Adding Social Media icon.mp4"></video>
           </div>
           <div class="col-md-4">
             <h5 style="margin-left: 1em; color: rgb(110, 35, 35);">Linking og Bootstrap</h5>
-            <video controls width="300" height="200" src="video/G-luperTech-Adding Bootstrap.mp4"></video>
+            <video controls autoplay="autoplay" width="300" height="200" src="video/G-luperTech-Adding Bootstrap.mp4"></video>
           </div>
         </div>
       </div>
@@ -154,35 +168,39 @@
     <footer>
       <div class="container">
         <div class="row">
-            <div class="col-md-4 bg-dark">
-                <h4 style="color: white;">Our Handle</h4>
+            <div class="col-md-4">
+                <h4 style="color: black;">Our Handle</h4>
                 <div class="row">
                     <div class="col-md-6">
                         <figure class="figure">
                             <a href="https://www.youtube.com/channel/UC0DXsb-qiPf0oBk0OUKL0Ww">
-                            <img style="width: 2.6em; height: 2.6em;" src="images/youtube1.png" alt="Youtube"></a>
-                            </figure>
+                              <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </figure>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <figure class="figure">
                         <a href="https://web.facebook.com/G-Luper-Technologies-111658157079784">
-                        <img style="width: 3em; height: 3em;" src="images/facebook1.png" alt=""></a>
-                        </figure>
+                          <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </figure>
                 </div>    
                 <div class="col-md-6">
                     <figure class="figure">
                         <a href="https://www.instagram.com/glupertech/">
-                        <img style="width: 2.7em; height: 2.7em;" src="images/instagrame.PNG" alt="Instagrame"></a>
+                          <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
                         </figure>
                 </div>      
             </div>
-            <div class="col-md-4 bg-dark">
-            <video autoplay playsinline muted loop poster="https://d1csarkz8obe9u.cloudfront.net/embeddesigns/7c776d86038501409ff8b90edb011acc_img_embed.jpg" style="width: 300px; height: 200px;">
-            <source src="https://d1csarkz8obe9u.cloudfront.net/embeddesigns/7c776d86038501409ff8b90edb011acc_embed.mp4" type="video/mp4"></video></a>  
+            <div class="col-md-4">
+              <figure>
+                <img style="width: 20em; height: 10em; margin-top: 3em; " src="images/gluper-logo-main.png" alt="">
+              </figure>
+            <!-- <video autoplay playsinline muted loop poster="https://d1csarkz8obe9u.cloudfront.net/embeddesigns/7c776d86038501409ff8b90edb011acc_img_embed.jpg" style="width: 300px; height: 200px;">
+            <source src="https://d1csarkz8obe9u.cloudfront.net/embeddesigns/7c776d86038501409ff8b90edb011acc_embed.mp4" type="video/mp4"></video></a>   -->
              </div>
-             <div class="col-md-4 bg-dark">
-                 <h4 style="color: white;">CONTACT US</h4>
+             <div class="col-md-4">
+                 <h4 style="color:black;">CONTACT US</h4>
                  <p style="color: white;"><b>Address: U50 Post office Road, Sabon Tasha Kaduna. Nigeria</b></p>
                  <p style="color: white;"><b>E-mail: glupertech7@gmail.com</b></p>
                  <p style="color: white;"><b>Call: +2348052490552</b></p>

@@ -7681,12 +7681,13 @@ width:auto;
 }
  #Slide0
 {
-background:url(images/technology-and-us.jpg);
+background:url(images/slider2.jpeg);
 background-color:#2E1532;
 background-repeat:no-repeat;
 background-size:cover;
 background-position:Center Center;
 background-clip:padding-box;
+height: 30em;
 }
  #Slide1
 {
@@ -7696,15 +7697,17 @@ background-repeat:no-repeat;
 background-size:cover;
 background-position:Center Center;
 background-clip:padding-box;
+height: 30em;
 }
  #Slide2
 {
-background:url(images/it-mindset-or-technology-1080x627.jpg);
+background:url(images/slider-class.jpg);
 background-color:#272727;
 background-repeat:no-repeat;
 background-size:cover;
 background-position:Center Center;
 background-clip:padding-box;
+height: 30em;
 }
  .ttr_slide
 {
@@ -13519,4 +13522,15 @@ padding-bottom:0px;
 }
 button a{
   text-decoration: none;
+}
+footer{
+  background-color: gray;
+}
+#four_images figure img{
+  padding: 15px 10px;
+ 
+}
+#train-now{
+  border-bottom: double;
+  text-align: left;
 }
